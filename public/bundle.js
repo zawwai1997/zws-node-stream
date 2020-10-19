@@ -156,7 +156,7 @@ function (_React$Component) {
     value: function getLiveStreams() {
       var _this2 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('http://127.0.0.1:' + _server_config_default__WEBPACK_IMPORTED_MODULE_4___default.a.rtmp_server.http.port + '/api/streams').then(function (res) {
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('http://178.128.115.220:' + _server_config_default__WEBPACK_IMPORTED_MODULE_4___default.a.rtmp_server.http.port + '/api/streams').then(function (res) {
         var streams = res.data;
 
         if (_typeof(streams['live'] !== 'undefined')) {
@@ -526,7 +526,7 @@ function (_React$Component) {
       }, "OBS"), " or", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         target: "_blank",
         href: "https://www.xsplit.com/"
-      }, "XSplit"), " to Live stream. If you're using OBS, go to Settings > Stream and select Custom from service dropdown. Enter ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "rtmp://127.0.0.1:1935/live"), " in server input field. Also, add your stream key. Click apply to save.")))));
+      }, "XSplit"), " to Live stream. If you're using OBS, go to Settings > Stream and select Custom from service dropdown. Enter ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "rtmp://178.128.115.220:1935/live"), " in server input field. Also, add your stream key. Click apply to save.")))));
     }
   }]);
 
